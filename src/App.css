@@ -1,3 +1,6 @@
+
+
+
 .App{
 text-align: center;
 background: url("https://i.imgur.com/72j6Q2F.png");
@@ -10,7 +13,10 @@ background-size: 130%;
 
 h1{
     color: rgb(202, 48, 48);
-    text-decoration: underline black;
+    text-decoration: underline;
+    text-decoration-color: darkslategrey;
+    text-shadow: 0 0 3px black;
+    
 }
 
 .TPB{
@@ -19,17 +25,79 @@ h1{
 }
 
 h2{
-    margin: 1;
+    margin: .5;
     color: rgb(190, 37, 37);
     padding-top: .5;
     text-decoration: underline white;
+    text-shadow: 0 0 1px black;
+
 }
 
 h3{
     margin: 0;
     color:rgb(94, 92, 92);
+    text-shadow: 0 0 5px white;
+    font-size: 150%;
+    font-family: fantasy;
+    font: bold;
 }
 
 h4{
     margin:0;
+    text-shadow: 0 0 1.5px #FF0000; 
 }
+
+.button{
+    background-color: firebrick;
+    border-radius: 25px;
+}
+.delete-this{
+    background-color: firebrick;
+    border-radius: 25px;
+}
+.Change-Me{
+    background: black;
+    color: red;
+    border-radius: 25px;
+}
+
+.button:hover, .delete-this:hover, .Change-Me:hover{
+    background-color: forestgreen
+}
+
+
+.New{ background: black;
+    color: #FF0000;
+
+}
+
+.Main-Logo{
+    color: rgb(202, 48, 48);
+    text-decoration: underline;
+    text-decoration-color: darkslategrey;
+    text-shadow: 0 0 3px black;
+    font-size: 50px;
+
+}
+
+.neighbors{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(107, 192, 50);
+    text-shadow: 0 0 3px black;
+    font-size: 40px;
+    animation-name: spinner;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  transform-style: preserve-3d;
+  text-align:center;
+}
+@keyframes spinner {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+

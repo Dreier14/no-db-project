@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import axios from "axios";
 import NewCharacter from "./NewCharacter"
@@ -88,23 +87,27 @@ class App extends Component {
         <b>Trailer Park Boys Character Creator</b>
         </h1>
         <img className = "TPB" src = "https://pa1.narvii.com/6120/6e0ed9ef09d8369b05f1e97ea7bea49a6b73a928_hq.gif"/>
+        <br/>
+        <iframe autoplay width="640" height="360" src="https://www.youtube.com/embed/dI6Drn3OA70" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
         <h1 className = "Motto">
-        <i>Welcome to Sunnyvale</i>
+        <i>Welcome to Sunnyvale!</i>
         </h1>
         </div>
         </span>
         </header>
+        <div className = "neighbors">Meet Our Neighbors</div>
         <div className = "body">
         <div className = "body2"></div>
         <div className = "search-bar">
         {view}
         </div>
         <footer>
-        <Main-Logo><h1><b><i> Trailer Park Boys Series </i></b></h1></Main-Logo>
+        <MainLogo/>
+        <h1>Thanks for Visiting Sunnyvale!</h1>
         <img className = "TPB" src = "https://ia.media-imdb.com/images/M/MV5BOTA0NTAwMTc1MF5BMl5BanBnXkFtZTgwODk2NjY0ODE@._V1_.jpg"/>
         </footer>
         <div className ="body3">{" "}</div>
-        </div>
+       </div>
       </main>
     );
   }
