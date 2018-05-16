@@ -6,6 +6,7 @@ text-align: center;
 background: url("https://i.imgur.com/72j6Q2F.png");
 background-size: 130%;
 
+
 }
 .view{
     width: 300px;
@@ -16,6 +17,7 @@ h1{
     text-decoration: underline;
     text-decoration-color: darkslategrey;
     text-shadow: 0 0 3px black;
+    font-size: 400%;
     
 }
 

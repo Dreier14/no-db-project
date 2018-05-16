@@ -79,13 +79,13 @@ class App extends Component {
     return (
       <main className ="App">
         <header className = "App-Header">
-        <span className = "input"><NewCharacter addCharacter={this.addCharacter}/>
-        </span>
         <span className = "content">
         <div>
         <h1 className = "App-Name">
         <b>Trailer Park Boys Character Creator</b>
         </h1>
+        <span className = "input"><NewCharacter addCharacter={this.addCharacter}/>
+        </span>
         <img className = "TPB" src = "https://pa1.narvii.com/6120/6e0ed9ef09d8369b05f1e97ea7bea49a6b73a928_hq.gif"/>
         <br/>
         <iframe autoplay width="640" height="360" src="https://www.youtube.com/embed/dI6Drn3OA70" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
